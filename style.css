@@ -1,3 +1,4 @@
+/*
 .bg {
     background-color: 		#edf7fc;
 }
@@ -5,4 +6,63 @@
 .titleBlue {
     color: 	#50b8e7;
     font-weight: bolder;
+}
+
+.blue1{
+color: 	#84cdee;
+}
+.blue2{
+color: 	#b9e2f5;
+}
+.blue3{
+color: 	#dcf0fa;
+}
+*/
+
+
+
+body {
+  background-color: #edf7fc; 
+  font-family: 'Segoe UI';
+  color: #2a4d69; 
+
+}
+
+.titleBlue {
+  color: #50b8e7;
+  font-weight: bolder;
+  text-align: center;
+}
+
+
+.card {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 6px 15px rgba(80, 184, 231, 0.3);
+  transition: box-shadow 0.3s ease;
+}
+
+.card:hover {
+  box-shadow: 0 10px 25px rgba(80, 184, 231, 0.5);
+}
+
+.card-title {
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: #50b8e7;
+}
+
+.card-subtitle {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #84cdee; 
+}
+
+.card-text {
+  font-size: 1rem;
+  color: #406a8e; 
+}
+
+.card-text strong {
+  color: #1e3c58;
 }
