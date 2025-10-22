@@ -38,17 +38,17 @@ async function loadProfile() {
 
 
 document.addEventListener("keydown", e => {
-    if (e.key === "ArrowRight") {
+    if (e.key === "ArrowRight" || "ArrowUp") {
         if (s === schedules.length-1) {
-           
+           s=0
         } else {
             s++
             loadProfile()
         }
         
-    }   else if (e.key === "ArrowLeft") {
+    }   else if (e.key === "ArrowLeft" || "ArrowDown") {
         if (s === 0) {
-           
+           s = schedules.length-1
         } else {
             s--
             loadProfile()
